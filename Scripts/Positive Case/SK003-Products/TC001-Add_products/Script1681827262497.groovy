@@ -21,23 +21,23 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.saucedemo.com/')
 
-WebUI.setText(findTestObject('Object Repository/input_Swag Labs_user-name'), 'standard_user')
+WebUI.setText(findTestObject('P001-Login/input_Swag Labs_user-name'), GlobalVariable.username)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/input_Swag Labs_password'), 'qcu24s4901FyWDTwXGr6XA==')
+WebUI.setEncryptedText(findTestObject('P001-Login/input_Swag Labs_password'), GlobalVariable.passwordEnc)
 
-WebUI.click(findTestObject('Object Repository/input_Swag Labs_login-button'))
+WebUI.click(findTestObject('P001-Login/input_Swag Labs_login-button'))
 
-WebUI.click(findTestObject('Object Repository/button_Add to cart - Copy'))
+WebUI.click(findTestObject('P002-Products/button_Add to cart'))
 
-WebUI.click(findTestObject('Object Repository/button_Add to cart_1'))
+WebUI.click(findTestObject('P002-Products/button_Add to cart_1'))
 
-WebUI.click(findTestObject('Object Repository/button_Add to cart_1_2'))
+WebUI.click(findTestObject('P002-Products/button_Add to cart_1_2'))
 
-WebUI.click(findTestObject('Object Repository/button_Add to cart_1_2_3'))
+WebUI.click(findTestObject('P002-Products/button_Add to cart_1_2_3'))
 
-WebUI.click(findTestObject('Object Repository/button_Add to cart_1_2_3_4'))
+WebUI.click(findTestObject('P002-Products/button_Add to cart_1_2_3_4'))
 
-WebUI.click(findTestObject('Object Repository/button_Add to cart'))
+WebUI.click(findTestObject('P002-Products/button_Add to cart _1_2_3_4_5'))
 
 WebUI.closeBrowser()
 

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Add to cart - Copy</name>
+   <name>button_Add to cart _1_2_3_4_5</name>
    <tag></tag>
    <elementGuidId>21700e13-e8b1-4b95-9b94-74ee394ae355</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#add-to-cart-sauce-labs-backpack</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//button[@id='add-to-cart-sauce-labs-backpack']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#add-to-cart-sauce-labs-backpack</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
