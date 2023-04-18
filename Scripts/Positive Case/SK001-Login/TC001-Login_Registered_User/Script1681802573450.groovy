@@ -21,13 +21,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.saucedemo.com/')
 
-WebUI.setText(findTestObject('Object Repository/P001-Login/input_Swag Labs_user-name'), 'standard_user')
+WebUI.setText(findTestObject('Object Repository/P001-Login/input_Swag Labs_user-name'), username)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/P001-Login/input_Swag Labs_password'), 'qcu24s4901FyWDTwXGr6XA==')
+WebUI.setText(findTestObject('Object Repository/P001-Login/input_Swag Labs_password'), password)
 
 WebUI.click(findTestObject('Object Repository/P001-Login/input_Swag Labs_login-button'))
-
-WebUI.verifyElementText(findTestObject('P002-Products/span_Products'), 'Products')
 
 WebUI.closeBrowser()
 

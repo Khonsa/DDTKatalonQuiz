@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+multiple-username,Chrome 112.0.0.0,,,2023-04-18 15:42:39,2023-04-18 15:49:07,"6m - 28,212s",ERROR
+,,,,,,,
+Test Cases/Positive Case/SK001-Login/TC001-Login_Registered_User,Chrome 112.0.0.0,,,2023-04-18 15:43:25,2023-04-18 15:43:40,"15,433s",ERROR
+"openBrowser("""")",Chrome 112.0.0.0,,,2023-04-18 15:43:25,2023-04-18 15:43:28,"3,811s",PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 112.0.0.0,,,2023-04-18 15:43:28,2023-04-18 15:43:40,"11,220s",PASSED
+"setText(findTestObject(""Object Repository/P001-Login/input_Swag Labs_user-name""), a)",Chrome 112.0.0.0,,,2023-04-18 15:43:40,2023-04-18 15:43:40,"0,273s",ERROR
+,,,,,,,
+Test Cases/Positive Case/SK001-Login/TC001-Login_Registered_User,Chrome 112.0.0.0,,,2023-04-18 15:45:03,2023-04-18 15:45:17,"13,906s",ERROR
+"openBrowser("""")",Chrome 112.0.0.0,,,2023-04-18 15:45:03,2023-04-18 15:45:06,"3,050s",PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 112.0.0.0,,,2023-04-18 15:45:06,2023-04-18 15:45:17,"10,615s",PASSED
+"setText(findTestObject(""Object Repository/P001-Login/input_Swag Labs_user-name""), a)",Chrome 112.0.0.0,,,2023-04-18 15:45:17,2023-04-18 15:45:17,"0,198s",ERROR
+,,,,,,,
+Test Cases/Positive Case/SK001-Login/TC001-Login_Registered_User,Chrome 112.0.0.0,,,2023-04-18 15:46:11,2023-04-18 15:46:30,"18,499s",ERROR
+"openBrowser("""")",Chrome 112.0.0.0,,,2023-04-18 15:46:11,2023-04-18 15:46:14,"3,145s",PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 112.0.0.0,,,2023-04-18 15:46:14,2023-04-18 15:46:29,"14,987s",PASSED
+"setText(findTestObject(""Object Repository/P001-Login/input_Swag Labs_user-name""), a)",Chrome 112.0.0.0,,,2023-04-18 15:46:29,2023-04-18 15:46:30,"0,328s",ERROR
+,,,,,,,
+Test Cases/Positive Case/SK001-Login/TC001-Login_Registered_User,Chrome 112.0.0.0,,,2023-04-18 15:48:39,2023-04-18 15:49:07,"28,217s",ERROR
+"openBrowser("""")",Chrome 112.0.0.0,,,2023-04-18 15:48:39,2023-04-18 15:48:42,"3,166s",PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 112.0.0.0,,,2023-04-18 15:48:42,2023-04-18 15:49:07,"24,794s",PASSED
+"setText(findTestObject(""Object Repository/P001-Login/input_Swag Labs_user-name""), a)",Chrome 112.0.0.0,,,2023-04-18 15:49:07,2023-04-18 15:49:07,"0,229s",ERROR
