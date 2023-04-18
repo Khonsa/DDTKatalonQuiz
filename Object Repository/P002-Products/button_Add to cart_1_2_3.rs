@@ -38,7 +38,7 @@
       <name>data-test</name>
       <type>Main</type>
       <value>add-to-cart-sauce-labs-fleece-jacket</value>
-      <webElementGuid>6ef7c5b3-bcb4-4e02-b573-ce295b2f81b3</webElementGuid>
+     <webElementGuid>6ef7c5b3-bcb4-4e02-b573-ce295b2f81b3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
